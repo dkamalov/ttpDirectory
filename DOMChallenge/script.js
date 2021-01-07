@@ -6,7 +6,7 @@ let element1 = document.getElementsByID("container");
 
 // 2) Select the section with an id of container using querySelector.
 
-let element2 = document.querySelector("container");
+let element2 = document.querySelector(".container");
 
 // 3) Select all of the list items with a class of "second".
 
@@ -44,7 +44,7 @@ let element8 = document.getElementById("ul");
 
 // 12) Loop over all of the lis inside the ol tag and give them a background color of "green".
 
-let element9 = document.querySelector("li");
+let element9 = document.querySelector(".sli");
     for(let ol of li){
         ol.style.color("green");
     }

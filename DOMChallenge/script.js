@@ -40,11 +40,11 @@ element7.appendChild("four");
 
 // 10) Append the li to the ul element.
 
-let element8 = document.getElementById("ul");
+let element8 = document.getElementById("ul").appendChild(element7);
 
 // 12) Loop over all of the lis inside the ol tag and give them a background color of "green".
 
-let element9 = document.querySelector(".sli");
+let element9 = document.querySelector(".li");
     for(let ol of li){
         ol.style.color("green");
     }

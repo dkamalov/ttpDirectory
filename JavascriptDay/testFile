@@ -1,0 +1,16 @@
+function myEach(arr, callBack){
+
+    for (let i = 0; i <= arr.length; i++){
+
+        console.log(callBack(arr[i]));
+    }
+    return arr;
+}
+
+let arr = [1,2,3,4,5];
+
+function f (num){
+    return num * 2;
+}
+
+console.log(myEach(arr, f);

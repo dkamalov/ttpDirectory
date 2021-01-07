@@ -46,9 +46,10 @@ let element8 = document.getElementById("ul").appendChild(li);
 
 
     for(li of ol){
-        li.style.color("green");
+        li.style.color = "green";
     }
 
 // 13) Remove the div with a class of footer.
 
 element6.remove("footer");
+
